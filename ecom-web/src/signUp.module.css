@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.SignUpCont{
+    height: 300px;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.SignUpCont input{
+    height: 40px;
+    width: 80%;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(114, 225, 214);
+    color: black;
+    transition: transform 0.6s ease-in-out, background-color 1s ease-in-out;
+}
+
+.SignUpCont input:hover{
+    transform: scale(1.1);
+    background-color: rgb(115, 115, 218);
+}
+
+.SignUpCont input:hover::placeholder{
+    color: white;
+}
+
+.SignUpCont button{
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: chocolate;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out, background-color 1s ease-in-out;
+    cursor: pointer;
+}
+
+.SignUpCont button:hover{
+    transform: scale(1.1);
+    background-color: rgb(26, 117, 46);
+}
